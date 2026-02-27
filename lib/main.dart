@@ -219,7 +219,7 @@ class BottomNav extends StatelessWidget {
   Widget build(BuildContext context) {
     return BottomNavigationBar(
       backgroundColor: Colors.black,
-      selectedItemColor: Colors.black,
+      selectedItemColor: Colors.white,
       unselectedItemColor: Colors.white54,
       type: BottomNavigationBarType.fixed,
       items: const [
